@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PlannerListwithCreateNewActivity" 
+    android:background="@drawable/plannerbackground"
+    android:padding="10dp">
+
+
+    
+    <ImageButton
+        android:id="@+id/imageButton_PlannerListAddNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/addnewtripbutton_custom" />
+    
+  	<TextView
+        android:id="@+id/textView_PlannerListforEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="The List is Empty"
+        android:textSize="20dp" />
+            
+    <ListView
+	    android:id="@+id/listView_PlannerList"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+
+   </ListView>
+
+
+  
+</LinearLayout>
+<!-- From: file:/D:/Android/Projects/BlackCatTripOrganizer/app/src/main/res/layout/activity_planner_listwith_create_new.xml -->

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="30dp"
+    android:background="@drawable/vintagebuttonall">
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/textView1_PlannerList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Trip Name: "
+	        android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView2_PlannerList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Destination: "
+	       	android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView3_PlannerList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Start Date: "
+	        android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView4_PlannerList"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Travel By: "
+	        android:textSize="15dp"/>
+	    
+
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/TV_Plan_Name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+	    <TextView
+	        android:id="@+id/TV_Plan_City"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+		<TextView
+	        android:id="@+id/TV_Plan_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+
+	    <TextView
+	        android:id="@+id/TV_Plan_TravelBy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+	</LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/D:/Android/Projects/BlackCatTripOrganizer/app/src/main/res/layout/planner_list_item.xml -->

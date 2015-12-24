@@ -1,0 +1,135 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout_creteProfile2"
+    android:background="@drawable/trackerbackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="4" >
+    
+   	<LinearLayout 
+        
+		android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20dp"
+	        android:text="Enter The City For Activity"/>
+	
+	    <EditText
+	        android:id="@+id/editText_cityactivity"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="textPersonName" />
+    
+    </LinearLayout>
+    
+   	<LinearLayout 
+        
+		android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20dp"
+	        android:text="Enter The Depurture Date"/>
+	    
+	    <LinearLayout  
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:weightSum="12"> 
+	
+	        <EditText
+	            android:id="@+id/editText_startingdate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="7"
+	            android:inputType="date" />
+	        
+	      	<EditText
+	            android:id="@+id/editText_startingtime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="4"
+	            android:inputType="time" />
+	        
+	    	<ImageButton
+	    	    android:id="@+id/button_getdate"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_weight="1"
+	    	    android:background="@null"
+	    	    android:src="@drawable/getdatebutton" />
+	    	
+	    </LinearLayout>
+    
+    </LinearLayout>
+   		
+   	<LinearLayout 
+        
+		android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <TextView
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Enter Total Budget"
+	        android:textSize="20dp" />
+	
+	    <EditText
+	        android:id="@+id/editText_budget"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:inputType="numberSigned" />
+    
+    </LinearLayout>
+
+   	<LinearLayout 
+        
+		android:layout_weight="1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+
+   		<ImageButton
+   		    android:id="@+id/imageButton_createNew"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center"
+   		    android:src="@drawable/createprofilebutton_custom" />
+
+   		<!--<ImageButton
+   		    android:id="@+id/imageButton_back"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginTop="10dp"
+			android:background="@null"
+			android:layout_gravity="center"
+   		    android:src="@drawable/backbutton" />
+   		-->
+    
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout><!-- From: file:/D:/Android/Projects/BlackCatTripOrganizer/app/src/main/res/layout/activity_create_profile_2.xml -->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="20dp"
+    android:background="@drawable/vintagebuttonall">
+
+    <ImageView
+        android:id="@+id/imageView_CheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/placecheckinicon" />
+    
+    <LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Place Name: "
+	        android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Check-In "
+	       	android:textSize="15dp"/>
+	    
+	  	<TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Check-Out: "
+	       	android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Place category: "
+	        android:textSize="15dp"/>
+	 
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Spendings: "
+	        android:textSize="15dp"/>
+	    
+
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/TV_PlaceName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+	    <TextView
+	        android:id="@+id/TV_CheckInTime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+	    	    <TextView
+	        android:id="@+id/TV_CheckOutTime"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+		<TextView
+	        android:id="@+id/TV_PlaceCategory"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+
+	    <TextView
+	        android:id="@+id/TV_Spendings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="TextView"
+	        android:textSize="15dp"/>
+	    
+	</LinearLayout>
+    
+</LinearLayout>
+<!-- From: file:/D:/Android/Projects/BlackCatTripOrganizer/app/src/main/res/layout/checkin_list_item.xml -->

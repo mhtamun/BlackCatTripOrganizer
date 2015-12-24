@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menubackground"
+    tools:context=".MainMenuActivity" >
+
+	<LinearLayout
+	    android:weightSum="5"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+		<ImageButton
+		    android:id="@+id/imageButton_triptrackerbutton"
+		    android:layout_weight="1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:layout_gravity="center"
+		    android:src="@drawable/triptrackerbutton_custom" />
+
+		<ImageButton
+		    android:id="@+id/imageButton_triphistorybutton"
+		    android:layout_weight="1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:layout_gravity="center"
+		    android:src="@drawable/triphistorybutton_custom" />
+
+		<ImageButton
+		    android:id="@+id/imageButton_tripplannerbutton"
+		    android:layout_weight="1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:layout_gravity="center"
+		    android:src="@drawable/tripplannerbutton_custom" />
+		
+		<!--  <ImageButton
+			android:id="@+id/imageButton_settings"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center"
+			android:src="@drawable/settingsbuttton_custom" />-->
+
+		<ImageButton
+			android:id="@+id/imageButton_aboutus"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@null"
+			android:layout_gravity="center"
+			android:src="@drawable/aboutusbutton_custom" />  
+	    
+	</LinearLayout>
+
+</LinearLayout>

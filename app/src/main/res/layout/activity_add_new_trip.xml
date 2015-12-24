@@ -1,0 +1,157 @@
+<LinearLayout 
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_AddPlannerBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trackerbackground"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddNewTripActivity" 
+    android:weightSum="7">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trip Name: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewTrip_TripName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewTrip_Destination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date: "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewTrip_StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="15dp"
+            android:hint="Click on Start Date  " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel By: "
+            android:textSize="25dp" />
+        
+        <Spinner
+	        android:id="@+id/spinner_AddNewTrip_TravelBy"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/TravelBy" />
+        
+     	<!--  <RadioGroup
+		    android:id="@+id/radioGroup_AddNewTrip_TravelBy"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:weightSum="5">
+
+	        <RadioButton
+				    android:id="@+id/radio_AddNewTrip_Plane"
+				    android:layout_weight="1"
+				    android:layout_marginTop="-5dp"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="Plane" />
+			
+			<RadioButton
+			       	android:id="@+id/radio_AddNewTrip_Bus"
+			       	android:layout_weight="1"
+			       	android:layout_marginTop="-10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Bus" />
+			    
+			<RadioButton
+			        android:id="@+id/radio_AddNewTrip_Rail"
+			        android:layout_weight="1"
+			        android:layout_marginTop="-10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Rail" />
+			        
+			<RadioButton
+			        android:id="@+id/radio_AddNewTrip_Ship"
+			        android:layout_weight="1"
+			        android:layout_marginTop="-10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Ship" />
+			 	
+			<RadioButton
+			        android:id="@+id/radio__AddNewTrip_OtherTransport"
+			        android:layout_weight="1"
+			        android:layout_marginTop="-10dp"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Other Transport" />
+			
+	    </RadioGroup>-->
+	    
+    </LinearLayout>
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/imageButton_AddNewTrip_AddButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/addoptionalbutton_custom" />
+
+</LinearLayout>

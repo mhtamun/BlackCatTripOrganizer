@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blackcat.triporganizer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="true" />
+
+    <compatible-screens>
+
+        <!-- all normal size screens -->
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+        <!-- large screens -->
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+        <!-- xlarge screens -->
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="xlarge" />
+    </compatible-screens>
+
+    <!--
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- <uses-library android:name="com.google.android.maps" /> -->
+
+        <activity
+            android:name="com.blackcat.triporganizer.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.MainMenuActivity"
+            android:label="Main Menu"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.TrackerMenuActivity"
+            android:label="Trip Tracker"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.CreateProfile_1Activity"
+            android:label="Create Profile: Page-1"
+            android:theme="@android:style/Theme.Light"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.CreateProfile_2Activity"
+            android:label="Create Profile: Page-2"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.history.HistoryListActivity"
+            android:label="Trip History"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.history.HistoryViewerActivity"
+            android:label="Trip Information"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.BudgetTrackerActivity"
+            android:label="Budget Tracker"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.PlaceTrackerCheckInActivity"
+            android:label="Check-In"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.PlaceTrackerCheckOutActivity"
+            android:label="Check-Out"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.tracker.EnterExpensesActivity"
+            android:label="Enter Expenses"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.planner.PlannerListwithCreateNewActivity"
+            android:label="Trip Planner List"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.planner.AddNewTripActivity"
+            android:label="Create New trip"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.planner.AddAditionalPreferencesActivity"
+            android:label="Create New Trip: Additional Preferences"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.planner.PlannerListViewerActivity"
+            android:label="Trip Plan"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.history.CheckPlaceViewerActivity"
+            android:label="Places you had been"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.AboutUsActivity"
+            android:label="Developers&apos; Info"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="com.blackcat.triporganizer.planner.ViaEmailShareActivity"
+            android:label="Email Sharing"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BlackCat Trip Organizer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_tracker_menu">TrackerMenuActivity</string>
+    <string name="title_activity_create_profile_1">CreateProfile_1Activity</string>
+    <string name="title_activity_create_profile_2">CreateProfile_2Activity</string>
+    <string name="title_activity_history_list">HistoryListActivity</string>
+    <string name="title_activity_history_viewer">HistoryViewerActivity</string>
+    <string name="title_activity_close_profile">CloseProfileActivity</string>
+    <string name="title_activity_budget_tracker">BudgetTrackerActivity</string>
+    <string name="title_activity_enter_expenses">EnterExpensesActivity</string>
+    <string name="title_activity_planner_listwith_create_new">PlannerListwithCreateNewActivity</string>
+    <string name="title_activity_add_new_trip">AddNewTripActivity</string>
+    <string name="title_activity_add_aditional_preferences">AddAditionalPreferencesActivity</string>
+    <string name="title_activity_planner_list_viewer">PlannerListViewerActivity</string>
+
+    <string-array name="TravelBy">
+        <item>Select Item</item>
+        <item>AeropLane</item>
+        <item>Bus</item>
+        <item>Car</item>
+        <item>Rail</item>
+        <item>Ship</item>
+        <item>Other Transportation</item>
+    </string-array>
+
+    <string name="title_activity_place_tracker">PlaceTrackerActivity</string>
+    <string name="title_activity_check_place_viwer">CheckPlaceViwerActivity</string>
+    <string name="title_activity_place_tracker_check_out">PlaceTrackerCheckOutActivity</string>
+    <string name="title_activity_gpslocator">GPSLocatorActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_via_email_share">ViaEmailShareActivity</string>
+
+</resources>

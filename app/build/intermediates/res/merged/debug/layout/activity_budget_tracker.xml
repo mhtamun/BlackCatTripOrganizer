@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BudgetTrackerActivity" 
+    android:background="@drawable/budgetbackground"
+    android:weightSum="6">
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_accomodationrentsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/accomodationrentsbutton_custom" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_tranportationfaresbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/tranportationfaresbutton_custom" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_foodcostsbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/foodcostsbutton_custom" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_entertainmentspendingsbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/entertainmentspendingsbutton_custom" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_shoppingexpenditurebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:src="@drawable/shoppingexpenditurebutton_custom" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:id="@+id/imageButton_otherexpensesbutton"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/otherexpensesbutton_custom" />
+
+</LinearLayout>
+<!-- From: file:/D:/Android/Projects/BlackCatTripOrganizer/app/src/main/res/layout/activity_budget_tracker.xml -->
